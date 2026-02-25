@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 33% 7%;
+    --foreground: 0 0% 100%;
+    --card: 240 33% 10%;
+    --card-foreground: 0 0% 100%;
+    --popover: 240 33% 10%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 262 83% 58%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 33% 12%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 33% 15%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 262 83% 58%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 20% 25%;
+    --input: 240 20% 25%;
+    --ring: 262 83% 58%;
+    --radius: 0.625rem;
+    --sidebar-background: 240 33% 7%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 262 83% 58%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 33% 12%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 240 20% 25%;
+    --sidebar-ring: 262 83% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bg-primary text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-accent-purple to-accent-pink bg-clip-text text-transparent;
+  }
+  
+  .gradient-button {
+    @apply bg-gradient-to-r from-accent-purple to-accent-pink text-white font-semibold px-8 py-4 rounded-full transition-all duration-300;
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+  }
+  
+  .gradient-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 30px rgba(139, 92, 246, 0.6);
+  }
+  
+  .glow-card {
+    @apply bg-bg-card border border-border-custom rounded-2xl transition-all duration-300;
+  }
+  
+  .glow-card:hover {
+    border-color: rgba(139, 92, 246, 0.5);
+    box-shadow: 0 0 30px rgba(139, 92, 246, 0.2);
+    transform: translateY(-4px);
+  }
+  
+  .skill-pill {
+    @apply flex items-center gap-3 px-5 py-3 border border-border-custom rounded-xl transition-all duration-300 bg-bg-secondary/50;
+  }
+  
+  .skill-pill:hover {
+    border-color: rgba(139, 92, 246, 0.5);
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.15);
+  }
+  
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold text-center tracking-wider;
+  }
+  
+  .section-subtitle {
+    @apply text-text-muted text-center mt-4 text-lg;
+  }
+  
+  .nav-link {
+    @apply relative text-white/80 hover:text-white transition-colors duration-200;
+  }
+  
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-accent-purple transition-all duration-300;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+  
+  .input-field {
+    @apply w-full bg-bg-secondary border border-border-custom rounded-xl px-5 py-4 text-white placeholder:text-gray-500 focus:outline-none focus:border-accent-purple focus:ring-1 focus:ring-accent-purple transition-all duration-300;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
