@@ -63,7 +63,7 @@ const HomeSection = () => {
 
             <motion.div variants={fadeInUp}>
               <a
-                href="dist/Pdf/Abdessamed.pdf" download
+                href="/Pdf/Abdessamed.pdf" download
                 className="gradient-button inline-flex items-center gap-2"
               >
                 <Download className="w-5 h-5" />
@@ -87,6 +87,10 @@ const HomeSection = () => {
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white/20 shadow-glow-lg">
                 <img
                   src="/kp1.jpg"
+                  alt="Abdessamed"
+                  width={384}
+                  height={384}
+                  fetchPriority="high"
                   className="w-full h-full object-cover"
                 />
               </div>

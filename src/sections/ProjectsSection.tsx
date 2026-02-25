@@ -11,7 +11,7 @@ const projects = [
     title: ' Dashboard Analytics',
     description:
       'Built with Next.js, Tailwind CSS, Framer Motion, and TypeScript, this sleek analytics dashboard delivers high-performance data visualization. It features interactive charts and real-time metrics designed for seamless business monitoring and growth tracking.',
-    image: "dist/images/Dashbored.png",
+    image: '/images/projects/project_portfolio.jpg',
     technologies: ['Next.js','Typescript' ,'Tailwind CSS','Framer Motion'],
     link: 'https://admin-dashboard-kappa-pink-41.vercel.app',
   },
@@ -20,7 +20,7 @@ const projects = [
     title: 'Ecom',
     description:
       'E-commerce app built with React, TypeScript and TailwindCSS — featuring product browsing, search, auth, cart, wishlist, and discounts..',
-    image: "dist/images/Ecom.png",
+    image: '/images/projects/project_carrental.jpg',
     technologies: ['React', 'Typescript', 'Tailwind CSS', 'Framer Motion'],
     link: 'https://prime-ecom-khalidouu.vercel.app',
   },
@@ -29,7 +29,7 @@ const projects = [
     title: 'Personal Portfolio',
     description:
       'Animated Modern portfolio built with React.js, Typescript, and TailwindCSS, featuring smooth transitions, responsive design.',
-    image: "dist/images/H1.png",
+    image: '/images/projects/project_portfolio.jpg',
     technologies: ['React', 'Typescript', 'Tailwind CSS', 'Framer Motion'],
     link: '#',
   },
@@ -38,7 +38,7 @@ const projects = [
     title: 'Todos List',
     description:
       'Animated developer portfolio built with React.js, Tailwind CSS, and GSAP, featuring smooth transitions, responsive design.',
-    image: "dist/images/T.png",
+    image: '/images/projects/project_carrental.jpg',
     technologies: ['React', 'Materiel UI', 'Javascript'],
     link: 'https://my-todos-abdb.netlify.app',
   },
@@ -134,11 +134,15 @@ const ProjectsSection = () => {
               variants={fadeInUp}
               className="glow-card overflow-hidden group"
             >
-              {/* Project Image */}
-              <div className="relative overflow-hidden aspect-video">
+              {/* Project Image - explicit dimensions help LCP/CLS */}
+              <div className="relative overflow-hidden aspect-video bg-bg-card">
                 <img
                   src={project.image}
                   alt={project.title}
+                  width={640}
+                  height={360}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-bg-card/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
