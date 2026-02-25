@@ -90,7 +90,6 @@ const HomeSection = () => {
                   alt="Abdessamed"
                   width={384}
                   height={384}
-                  fetchPriority="high"
                   className="w-full h-full object-cover"
                 />
               </div>
