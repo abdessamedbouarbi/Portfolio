@@ -11,7 +11,7 @@ const projects = [
     title: ' Dashboard Analytics',
     description:
       'Built with Next.js, Tailwind CSS, Framer Motion, and TypeScript, this sleek analytics dashboard delivers high-performance data visualization. It features interactive charts and real-time metrics designed for seamless business monitoring and growth tracking.',
-    image: '/images/projects/project_portfolio.jpg',
+    image: '/images/Dashbored.png',
     technologies: ['Next.js','Typescript' ,'Tailwind CSS','Framer Motion'],
     link: 'https://admin-dashboard-kappa-pink-41.vercel.app',
   },
@@ -20,7 +20,7 @@ const projects = [
     title: 'Ecom',
     description:
       'E-commerce app built with React, TypeScript and TailwindCSS — featuring product browsing, search, auth, cart, wishlist, and discounts..',
-    image: '/images/projects/project_carrental.jpg',
+    image: '/images/Ecom.png',
     technologies: ['React', 'Typescript', 'Tailwind CSS', 'Framer Motion'],
     link: 'https://prime-ecom-khalidouu.vercel.app',
   },
@@ -29,7 +29,7 @@ const projects = [
     title: 'Personal Portfolio',
     description:
       'Animated Modern portfolio built with React.js, Typescript, and TailwindCSS, featuring smooth transitions, responsive design.',
-    image: '/images/projects/project_portfolio.jpg',
+    image: '/images/H1.png',
     technologies: ['React', 'Typescript', 'Tailwind CSS', 'Framer Motion'],
     link: '#',
   },
@@ -38,7 +38,7 @@ const projects = [
     title: 'Todos List',
     description:
       'Animated developer portfolio built with React.js, Tailwind CSS, and GSAP, featuring smooth transitions, responsive design.',
-    image: '/images/projects/project_carrental.jpg',
+    image: '/images/T.png',
     technologies: ['React', 'Materiel UI', 'Javascript'],
     link: 'https://my-todos-abdb.netlify.app',
   },
