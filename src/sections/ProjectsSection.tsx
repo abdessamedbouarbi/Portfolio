@@ -17,7 +17,7 @@ const projects = [
   },
    {
     id: 2,
-    title: 'Ecom',
+    title: 'Prime-Ecom',
     description:
       'E-commerce app built with React, TypeScript and TailwindCSS — featuring product browsing, search, auth, cart, wishlist, and discounts..',
     image: '/images/Ecom.png',
@@ -37,7 +37,7 @@ const projects = [
     id: 4,
     title: 'Todos List',
     description:
-      'Animated developer portfolio built with React.js, Tailwind CSS, and GSAP, featuring smooth transitions, responsive design.',
+      'A sleek and efficient task management application designed to organize daily goals and boost productivity..',
     image: '/images/T.png',
     technologies: ['React', 'Materiel UI', 'Javascript'],
     link: 'https://my-todos-abdb.netlify.app',
