@@ -63,7 +63,8 @@ const HomeSection = () => {
 
             <motion.div variants={fadeInUp}>
               <a
-                href="/Pdf/Abdessamed.pdf" download
+                href="/Pdf/Abdessamed.pdf"
+                download="Abdessamed.pdf"
                 className="gradient-button inline-flex items-center gap-2"
               >
                 <Download className="w-5 h-5" />
