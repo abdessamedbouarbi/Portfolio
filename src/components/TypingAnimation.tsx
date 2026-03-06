@@ -31,6 +31,7 @@ const TypingAnimation = ({
 
     if (isDeleting) {
       if (currentText === '') {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setIsDeleting(false);
         setCurrentTextIndex((prev) => (prev + 1) % texts.length);
       } else {

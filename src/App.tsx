@@ -6,7 +6,9 @@ import SkillsSection from '@/sections/SkillsSection';
 import ProjectsSection from '@/sections/ProjectsSection';
 import EducationSection from '@/sections/EducationSection';
 import ContactSection from '@/sections/ContactSection';
+import { Routes, Route } from 'react-router-dom';
 import MyService from './sections/MyService';
+import AllProjectsPage from '@/pages/AllProjectsPage';
 
 const ParticleBackground = lazy(() => import('@/components/layout/ParticleBackground').then(m => ({ default: m.default })));
 
@@ -23,12 +25,19 @@ function App() {
 
       {/* Main Content */}
       <main className="relative z-10">
-        <HomeSection />
-        <SkillsSection />
-        <ProjectsSection />
-        <EducationSection />
-        <MyService />
-        <ContactSection />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <HomeSection />
+              <SkillsSection />
+              <ProjectsSection />
+              <EducationSection />
+              <MyService />
+              <ContactSection />
+            </>
+          } />
+          <Route path="/projects" element={<AllProjectsPage />} />
+        </Routes>
       </main>
 
       {/* Footer */}
