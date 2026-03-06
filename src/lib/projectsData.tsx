@@ -17,7 +17,7 @@ export const projects: Project[] = [
         title: ' Dashboard Analytics',
         description:
             'Built with Next.js, Tailwind CSS, Framer Motion, and TypeScript, this sleek analytics dashboard delivers high-performance data visualization. It features interactive charts and real-time metrics designed for seamless business monitoring and growth tracking.',
-        image: '/images/Dashbored.png',
+        image: '/images/Dash1.png',
         technologies: ['Next.js', 'Typescript', 'Tailwind CSS', 'Framer Motion'],
         link: 'https://admin-dashboard-kappa-pink-41.vercel.app',
     },
