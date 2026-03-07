@@ -23,7 +23,7 @@ const Navbar = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/khaledcs500', label: 'GitHub' },
+    { icon: Github, href: 'https://github.com/abdessamedbouarbi', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/abdessamed-bouarbi-a85389351/', label: 'LinkedIn' },
     { icon: Phone, href: 'https://wa.me/213656039190', label: 'WhatsApp' },
   ];
@@ -33,9 +33,8 @@ const Navbar = () => {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-bg-primary/90 backdrop-blur-md' : 'bg-transparent'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-bg-primary/90 backdrop-blur-md' : 'bg-transparent'
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
@@ -71,7 +70,7 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 className="text-white/70 hover:text-accent-purple transition-all duration-200 hover:scale-110"
                 aria-label={social.label}
-                style={{padding:'10px', }}
+                style={{ padding: '10px', }}
               >
                 <social.icon className="w-5 h-5" />
               </a>
