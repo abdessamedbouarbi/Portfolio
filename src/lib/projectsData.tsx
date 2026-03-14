@@ -23,12 +23,12 @@ export const projects: Project[] = [
     },
     {
         id: 2,
-        title: 'Prime-Ecom',
+        title: 'CRM Pro ',
         description:
-            'Modern e-commerce platform dedicated to providing a premium shopping experience with fast delivery, secure payments, and a vast selection of products. The site highlights its commitment to quality and customer satisfaction through key features like 24/7 support and hassle-free returns, serving over 50,000 happy customers.',
-        image: '/images/Ecom.png',
+            'A dynamic CRM dashboard interface built with React, TypeScript, Tailwind CSS, and Framer Motion, featuring seamless API integration for real-time data. It combines intuitive contact management, sales analytics, and smooth animations to deliver a professional data-driven experience for modern teams.',
+        image: '/images/CRM.png',
         technologies: ['React.js', 'Typescript', 'Tailwind CSS', 'Framer Motion'],
-        link: 'https://prime-ecom-khalidouu.vercel.app',
+        link: 'https://crm-pro-dash.vercel.app',
     },
     {
         id: 3,
@@ -41,6 +41,15 @@ export const projects: Project[] = [
     },
     {
         id: 4,
+        title: 'Pixel-Vibe',
+        description:
+            'A digital agency website built with React, Next.js, and Tailwind CSS, featuring seamless API integration for dynamic content. It showcases a full range of services including web development, UI/UX design, and data analytics, with impressive stats like 500+ projects completed and 98% client satisfaction.',
+        image: '/images/PixelVibe.png',
+        technologies: ['React.js', 'Typescript', 'Tailwind CSS', 'Framer Motion'],
+        link: 'https://pixel-vibe-seven.vercel.app',
+    },
+    {
+        id: 5,
         title: 'Watch Fluence Store',
         description:
             'Watch Fluence is an online store specialized in selling smartwatches, built with React and Tailwind CSS to deliver a fast and responsive shopping experience. The site showcases a premium collection of watches that blend advanced technologies (such as water resistance, long battery life, and connectivity with smart devices) with sleek design, focusing on providing high-quality products at competitive prices.',
@@ -49,7 +58,7 @@ export const projects: Project[] = [
         link: 'https://watch-fluence-store.netlify.app/',
     },
     {
-        id: 5,
+        id: 6,
         title: 'Personal Portfolio',
         description:
             'Animated Modern portfolio built with React.js, Typescript, and TailwindCSS, featuring smooth transitions, responsive design.',
@@ -58,7 +67,16 @@ export const projects: Project[] = [
         link: '#',
     },
     {
-        id: 6,
+        id: 7,
+        title: 'Prime-Ecom',
+        description:
+            'Modern e-commerce platform dedicated to providing a premium shopping experience with fast delivery, secure payments, and a vast selection of products. The site highlights its commitment to quality and customer satisfaction through key features like 24/7 support and hassle-free returns, serving over 50,000 happy customers.',
+        image: '/images/Ecom.png',
+        technologies: ['React.js', 'Typescript', 'Tailwind CSS', 'Framer Motion'],
+        link: 'https://prime-ecom-khalidouu.vercel.app',
+    },
+    {
+        id: 8,
         title: 'Todos List',
         description:
             'A sleek and efficient task management application designed to organize daily goals and boost productivity..',

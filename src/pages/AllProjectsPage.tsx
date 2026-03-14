@@ -6,7 +6,6 @@ import { projects, TechBadge } from '@/lib/projectsData';
 import { useEffect } from 'react';
 
 const AllProjectsPage = () => {
-    // Scroll to top when page mounts
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
