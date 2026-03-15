@@ -87,13 +87,13 @@ const HomeSection = () => {
                 {/* Profile Image Container */}
                 <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white/20 shadow-glow-lg">
                   <img
-                    src="/kp1.jpg"
+                    src="/Me.png"
                     alt="Abdessamed"
                     width={384}
                     height={384}
                     loading="eager"
                     fetchPriority="high"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover scale-110"
                   />
                 </div>
               </div>

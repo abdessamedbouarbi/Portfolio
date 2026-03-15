@@ -79,7 +79,7 @@ const AllProjectsPage = () => {
                                     rel="noopener noreferrer"
                                     className="w-full gradient-button flex items-center justify-center gap-2 py-4 disabled:opacity-70 disabled:cursor-not-allowed"
                                 >
-                                    View Live
+                                    Live Demo
                                     <ExternalLink className="w-5 h-5" />
                                 </a>
                             </div>
