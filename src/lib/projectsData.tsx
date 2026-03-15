@@ -62,7 +62,7 @@ export const projects: Project[] = [
         title: 'Personal Portfolio',
         description:
             'Animated Modern portfolio built with React.js, Typescript, and TailwindCSS, featuring smooth transitions, responsive design.',
-        image: '/images/H1.png',
+        image: '/images/Meee.png',
         technologies: ['React.js', 'Typescript', 'Tailwind CSS', 'Framer Motion'],
         link: '#',
     },
