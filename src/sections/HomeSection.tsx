@@ -6,8 +6,9 @@ import { fadeInUp, scaleIn, staggerContainer } from '@/lib/animations';
 
 const HomeSection = () => {
   const roles = [
-    'Front-End Developer',
-    'Web Developer',
+    'Full-Stack Developer',
+    'Front-end Developer',
+    'Back-end Developer',
   ];
 
   return (
@@ -53,12 +54,7 @@ const HomeSection = () => {
                 variants={fadeInUp}
                 className="text-text-muted text-base md:text-lg leading-relaxed mb-8 max-w-xl"
               >
-                Front-End Developer focused on React.js, Next.js, and Tailwind CSS,
-                with hands-on experience building responsive user interfaces and Prioritizing
-                clean UX, modular component architecture, and delivering
-                production-ready, end-to-end web applications. Passionate about
-                problem-solving, learning, and leveraging AI tools to speed up
-                development and build efficient solutions.
+               Full‑Stack Developer focused on React.js, Next.js, and Tailwind CSS, with hands‑on experience building responsive user interfaces and backend features using Node.js, Express.js, NestJS, MongoDB, MySQL, Prisma, and TypeORM. Prioritizing clean UX, modular component architecture, RESTful APIs, and delivering production‑ready, end‑to‑end web applications. Passionate about problem‑solving, learning, and leveraging AI tools to speed up development and build efficient solutions.
               </motion.p>
 
               <motion.div variants={fadeInUp}>

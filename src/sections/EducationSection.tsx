@@ -5,7 +5,6 @@ const educationData = [
   {
     id: 1,
     degree: 'Modern Web Interfaces',
-    year: '2025',
     description:
       'Mastered modern UI development using React.js, Next.js, Typescript, and Tailwindcss. Focused on building responsive, accesible and high-performance web App through hands-on project experience.',
     side: 'left',
@@ -13,9 +12,8 @@ const educationData = [
   {
     id: 2,
     degree: 'Back-end & System Architecture',
-    year: 'Current Focus',
     description:
-      'Currently expanding technical expertise into server-side logic and database management. Learning to build scalable APIs and secure back-end systems to transition into a complete Full-Stack Developer role.',
+      'Built secure, scalable server‑side applications using Express.js, NestJS, RESTful APIs, MySQL, MongoDB and Prisma. Designed database schemas, implemented authentication, and delivered complete end‑to‑end full‑stack solutions.',
     side: 'right',
   },
 ];
@@ -98,10 +96,6 @@ const EducationSection = () => {
                           <p className="text-accent-purple font-medium mb-2">
                             {item.degree}
                           </p>
-                          <p className="text-text-muted text-sm mb-2">
-                            {item.year}
-                            
-                          </p>
                           <p className="text-text-muted text-sm leading-relaxed">
                             {item.description}
                           </p>
@@ -126,9 +120,6 @@ const EducationSection = () => {
                     
                     <p className="text-accent-purple font-medium mb-2">
                       {item.degree}
-                    </p>
-                    <p className="text-text-muted text-sm mb-2">
-                      {item.year}
                     </p>
                     <p className="text-text-muted text-sm leading-relaxed">
                       {item.description}

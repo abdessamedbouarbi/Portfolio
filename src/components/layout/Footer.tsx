@@ -19,7 +19,7 @@ const Footer = () => {
           </h3>
 
           <p className="text-text-muted text-sm mb-4">
-            Front-End Developer  | Building modern web experiences
+            Full-Stack Developer  | Building modern web experiences
           </p>
 
           <div className="flex items-center justify-center gap-1 text-text-muted text-sm">
